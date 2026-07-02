@@ -2769,7 +2769,7 @@ GameObject:
   - component: {fileID: 1553532402}
   - component: {fileID: 1553532403}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3285,6 +3285,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d02b4a408702fb46b6053e2c0bc549c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 1555135668}
+  - {fileID: 1890624056}
+  - {fileID: 941423116}
+  duration: 0.2
+  delay: 0.05
+  ease: 27
 --- !u!1 &1695558039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4021,6 +4028,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1890624056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6856285823825260464, guid: 350ef8504e13f8443b7c9874d7fa705e, type: 3}
+  m_PrefabInstance: {fileID: 807297721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927001990
 GameObject:
   m_ObjectHideFlags: 0
